@@ -1,0 +1,142 @@
+/* Basic page style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+}
+
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* Hero */
+.hero {
+    height: 500px;
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("hero.png");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+
+.hero-content {
+    max-width: 700px;
+    padding: 20px;
+}
+
+
+.hero h1 {
+    font-size: 45px;
+}
+
+
+.hero p {
+    font-size: 18px;
+}
+
+
+/* Button */
+.button {
+    display: inline-block;
+
+    background-color: #007bff;
+    color: white;
+
+    padding: 12px 25px;
+
+    text-decoration: none;
+
+    margin-top: 15px;
+}
+
+
+/* About */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+
+/* Courses */
+.courses {
+    background-color: #f2f2f2;
+
+    padding: 60px 20px;
+
+    text-align: center;
+}
+
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+
+.course {
+    background-color: white;
+
+    width: 250px;
+
+    padding: 25px;
+
+    box-shadow: 0 2px 8px gray;
+}
+
+
+.course h3 {
+    color: #007bff;
+}
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
